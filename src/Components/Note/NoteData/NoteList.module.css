@@ -1,0 +1,147 @@
+.card {
+    width: 20rem;
+    min-width: 12rem;
+    background-color: #D5BC73;
+    color: #EEE5CB;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0.4rem 1rem;
+    width: calc(25% - 2rem);
+    max-height: 300px; 
+  overflow: auto;
+  position: relative;
+  }
+  .main{
+    
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cardBody {
+    padding: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .date{
+    text-align: right;
+    font-size: 0.9rem;
+  }
+  .cardSubtitle {
+    font-size: 1.3rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .cardText {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+  }
+  
+  .cardLink {
+    background-color: #4b4acf !important;
+    color: #ccc;
+    padding:0.4rem 0.4rem;
+    margin: 0.1rem 0.1rem;
+  }
+  .cardLinkContainer{
+    display: flex;
+    position: sticky;
+  bottom: 0px;
+  right: 0px;
+  }
+  
+  .submitBtn {
+    background-color: #4b4acf !important;
+    color: #ccc;
+    padding:0.4rem 0.9rem;
+    margin: 0.6rem 0.1rem;
+  }
+  .customModal {
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2.5rem;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #242629;
+    border-radius: 0.8rem;
+  }
+  .customModal h4 {
+    width: 100%;
+    padding: 1rem;
+  }
+  .customButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .customButton:last-child {
+    margin-right: 0;
+  }
+  .customOverlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31, 46, 69, 0.8);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .addButton{
+    display: flex;
+    position: fixed;
+  bottom: 14px;
+  right: 14px;
+  
+  }
+  .addIcon{
+    font-size: 6rem;
+    background-color: white !important;
+    color: black;
+  }
+  .SearchBar{
+    text-align: center;
+    width: 100%;
+  }
+  .SearchBar input{
+    padding:0.7rem 10rem;
+    margin: 0.3rem 0.1rem;
+    border-radius: 0.8rem;
+  }
+  @media screen and (max-width: 668px) {
+    .card {
+      width: calc(50% - 2rem); 
+      min-width: calc(50% - 2rem);
+  }
+  .cardLink {
+    padding:0..05rem 0rem;
+    margin: 0rem 0.1rem;
+  }
+  .main{
+    text-align: center;
+  }
+  .SearchBar input{
+    padding:0.3rem 1rem;
+   
+  }
+}
+  
+  
